@@ -4,15 +4,15 @@
 
 # Site
 title: Logb
-subtitle:
+subtitle: Keep my memory
 description:
-author: BT
+author: HyperBT
 language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://hyper-bt.github.io/blog/
-root: /
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,7 +69,7 @@ theme: maupassant
 deploy:
   type: git
   repository: git@github.com:hyper-bt/blog.git
-  branch: github-pages
+  branch: master # github-pages
 
 marked:
     gfm: true
